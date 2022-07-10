@@ -1,2 +1,2 @@
 # odin-project-landing-page
-Landing page project
+This is the landing page project in the foundations path.
