@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgb(150, 0, 0);
+    background-color: rgb(214, 86, 0);
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
@@ -24,6 +24,8 @@ ul li a {
     text-decoration: none;
     color: whitesmoke;
     margin: 20px;
+    background-color: black;
+    border-radius: 30px;
 }
 
 main {
@@ -35,7 +37,7 @@ main {
 
 .top-content {
     background-color: #ffffff;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -47,7 +49,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin-left: 10%;
-    height: 25%;
+    height: 30%;
     justify-content: space-between;
 }
 
@@ -56,10 +58,37 @@ main {
 }
 
 .bottom-content {
-    background-color: beige;
-    height: 50vh;
+    background-color: rgb(20, 0, 66);
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-img, .second-img, .third-img {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.first-img p {
+    margin-top: 20px;
+}
+
+.second-img p {
+    margin-top: 20px;
+}
+
+.third-img p {
+    margin-top: 20px;
 }
 
 .sign-up {
     padding: 2.5px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
